@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.12.1'
+}
+
+application {
+    mainClass = 'Main' // Replace with your actual package and main class
+}
